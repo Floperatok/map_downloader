@@ -1,0 +1,39 @@
+{
+	"maps": [
+		{
+			"game_name":"hitman/dartmoor",
+			"formatted_url":"https://tiles.mapgenie.io/games/hitman-3/dartmoor/default-v2/{z}/{x}/{y}.jpg",
+			"zoom":16,
+			"output_folder":"",
+			"background_color":"#333333",
+			"map_valid_coord": {
+				"x":32542,
+				"y":32630
+			}
+		},
+		{
+			"game_name":"hitman/berlin",
+			"formatted_url":"https://tiles.mapgenie.io/games/hitman-3/berlin/default-v2/{z}/{x}/{y}.jpg",
+			"zoom":16,
+			"output_folder":"",
+			"background_color":"#333333",
+			"map_valid_coord": {
+				"x":32561,
+				"y":32637
+			}
+		},
+		{
+			"game_name":"hitman/dubai",
+			"formatted_url":"https://tiles.mapgenie.io/games/hitman-3/dubai/default-v2/{z}/{x}/{y}.jpg",
+			"zoom":16,
+			"output_folder":"",
+			"background_color":"#333333",
+			"map_valid_coord": {
+				"x":32549,
+				"y":32643
+			}
+		}
+	]
+}
+
+
