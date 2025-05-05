@@ -40,7 +40,7 @@ map_valid_coord = []
 
 
 if len(sys.argv) != 2:
-	print("Usage: python steal_map.py [conf_file.json]")
+	print("Usage: python download_map.py [conf_file.json]")
 	exit()
 try:
 	f = open(sys.argv[1], "r", encoding="UTF-8")
@@ -122,7 +122,7 @@ for i in range(len(game_name)):
 	os.makedirs(f"{output_folder[i]}/raw")
 	os.makedirs(f"{output_folder[i]}/tiles")
 
-# STEALING...
+# DOWNLOADING...
 for i in range(len(game_name)):
 	print(f"{game_name[i].capitalize()}")
 	dimensions = asyncio.run(download_map(formatted_url[i], zoom[i], map_valid_coord[i], output_folder[i]))
